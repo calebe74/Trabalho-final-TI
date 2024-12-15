@@ -1,0 +1,63 @@
+/* Header fixo */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1045; /* Menor que modal, maior que conteúdo */
+    width: 100%;
+    
+}
+
+/* Ajustar container para não sobrepor header */
+.container {
+    padding-top: 80px; /* Altura do header */
+    margin-top: 0;
+}
+
+/* Modal */
+.modal {
+    z-index: 1055; /* Garantir que o modal apareça acima de outros elementos */
+    position: relative;
+    top: 100px; /* Ajuste conforme a altura do seu header */
+}
+
+/* Ajuste do backdrop */
+.modal-backdrop {
+    z-index: 1050; /* Funda o backdrop da modal */
+}
+
+
+/* Estilização geral */
+h2 {
+    color: #d4af37;
+    margin-top: 80px;
+}
+
+.table {
+    background-color: #333333;
+    border: none;
+}
+
+.table th, .table td {
+    color: #ffffff;
+    border: 1px solid #555555;
+}
+
+.table-bordered {
+    border: 1px solid #d4af37;
+}
+
+/* Botões */
+button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #bfa72d;
+}
+
+.btn-close-white {
+    filter: invert(1); /* Botão de fechar branco */
+}

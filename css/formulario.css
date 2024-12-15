@@ -1,0 +1,63 @@
+* {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #0a0a0a, #1e1e1e); /* Gradiente de fundo preto e cinza escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #dddddd; /* Cor do texto principal */
+    flex-direction: column;
+}
+
+.container {
+    background-color: #2c2c2c; /* Cor de fundo do container (cinza escuro) */
+    padding: 50px;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    max-width: 500px; /* Largura máxima ajustada */
+    width: 100%; /* Largura do container ocupa 100% do espaço disponível */
+    text-align: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.container h1 {
+    color: #d4af37; /* Cor do título (dourado) */
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #d4af37; /* Cor do botão (dourado) */
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #bfa72d; /* Cor do botão ao passar o mouse (dourado mais escuro) */
+}
+
+.btn-secondary {
+    background-color: #333333; /* Cor do botão secundário (cinza escuro) */
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #1e1e1e; /* Cor do botão ao passar o mouse (cinza ainda mais escuro) */
+}
